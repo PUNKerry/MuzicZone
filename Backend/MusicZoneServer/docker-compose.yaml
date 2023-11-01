@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:alpine
+    container_name: db1
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=music_zone
+  service:
+    container_name: server1
+    build:
+      context: .
+    expose:
+      - 8080
+    depends_on:
+      - db
+    environment:
+      - DB_URL=jdbc:postgresql://db:5432/music_zone
+      - DB_USER=postgres
+      - DB_PASS=123
+      - SERVER_PORT=8080
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "4080:80"
+    depends_on:
+      - service
