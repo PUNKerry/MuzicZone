@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">MusicZone</string>
+
+    <string name="logo">MUSIC</string>
+    <string name="my_music">My music</string>
+    <string name="hint_search_name">Search music</string>
+
+    <string name="music_name">Music name</string>
+    <string name="music_author">Author</string>
+
+    <string name="account_name">Name Surname</string>
+    <string name="account_nickname">Nickname: Nickname</string>
+    <string name="account_email">email@email.com</string>
+    <string name="account_phone">Phone number: +7(900)888–77-55</string>
+
+    <string name="account_edit">Edit</string>
+    <string name="account_sing_out">Sign out</string>
+    <string name="account_check_music">Check music</string>
+    <string name="account_admin_add_music">Add music</string>
+
+    <string name="back">Back</string>
+
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="nickname">Nickname</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone number</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="save">Save</string>
+
+    <string name="send_code">Send code</string>
+    <string name="code">Code</string>
+    <string name="verify_code">Verify code</string>
+    <string name="new_password">New password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="new_password_send">Input new password</string>
+    <string name="verify_password">Verify password</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="sign_in">Sign in</string>
+
+    <string name="recover_password">Recover your password</string>
+    <string name="forgot_password">Forgot password</string>
+
+    <string name="adminMusic">Admins Music</string>
+
+    <string name="song_name">Song name</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="track_name">Track name</string>
+    <string name="track_path">Track</string>
+    <string name="add_track">Add track</string>
+
+    <string name="playlists_logo">Playlist</string>
+    <string name="playlist_name">Playlist</string>
+    <string name="check_playlists">Check Playlists</string>
+
+    <string name="musiczoneap">MusicZoneApp</string>
+
+    <string-array name="misic">
+        <item>music 1</item>
+        <item>music 2</item>
+        <item>music 3</item>
+        <item>music 4</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="music_time">0:00</string>
+    <string name="title_activity_add_music">AddMusicActivity</string>
+    <string name="search_bottom">Search</string>
+    <string name="home_bottom">Home</string>
+    <string name="account_bottom">Account</string>
+    <string name="intro_header">Welcome to MusicZone</string>
+    <string name="intro_search">Here you can find music and add it to yourself</string>
+    <string name="intro_player">Here you can listen to the selected music</string>
+    <string name="intro_account">Here you can log in to your account and view the saved music</string>
+</resources>
